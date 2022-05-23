@@ -21,17 +21,17 @@ body {
 .matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.main-page {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.centered-main-page-element__task {
+.main-page__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
-.centered-main-page-element__task-row-wrapper {
+.main-page__task-row-wrapper {
     display: flex;
 }
 ul {
@@ -138,11 +138,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.centered-main-page-element__editMode input[type=text] {
+ul li.main-page__editMode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.centered-main-page-element__editMode label {
+ul li.main-page__editMode label {
     display:none;
 }
