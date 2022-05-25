@@ -150,18 +150,18 @@
 }
 
 /* Completed */
-.completed-label {
+.completed .main__label-task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .main__input-task,
-.label-edit {
+.edit-mode .main__label-task {
   display: none;
 }
 
-.input-edit {
+.edit-mode .main__input-task {
   display: inline-block;
   width: 224px;
 }
