@@ -39,20 +39,20 @@
 }
 
 .main__task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .main__task,
 .main__heading {
-  list-style:none;
+  list-style: none;
 }
 
 .button,
 .main__input-task,
 .main__input-new-task,
 .main__checkbox{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -157,16 +157,16 @@
 
 /* Edit Task */
 .main__input-task {
-  display:none
+  display: none
 }
 
 .input-edit {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .label-edit {
-  display:none;
+  display: none;
 }
 
 @media (max-width:768px) {
