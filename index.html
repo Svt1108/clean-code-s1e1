@@ -13,41 +13,45 @@
       <a class="matrix__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <section id="add-element">
-        <label class="main__heading-new-task" for="new-task">Add Item</label>
-        <div class="main__new-task-wrapper">
-          <input class="main__input-new-task" id="new-task" type="text">
-          <button class="main__button">Add</button>
+      <section class="add-item">
+        <label class="add-item__heading-new-task" for="new-task">Add Item</label>
+        <div class="add-item__new-task-wrapper">
+          <input class="add-item__input-new-task" id="new-task" type="text">
+          <button class="button add-item__button">Add</button>
         </div>
       </section>
-      <section id="todo-element">
-        <h3 class="main__heading">Todo</h3>
-        <ul class="main__task-list" id="incomplete-tasks">
-          <li class="main__task">
-            <input class="main__checkbox" type="checkbox">
-            <label class="main__label-task">Pay Bills</label>
-            <input class="main__input-task" type="text">
-            <button class="edit main__button">Edit</button>
-            <button class="delete main__button"><img src="./remove.svg" class = "delete__img" alt = "delete"></button>
+      <section class="items">
+        <h3 class="items__heading">Todo</h3>
+        <ul class="items__task-list" id="incomplete-tasks">
+          <li class="items__task">
+            <input class="items__checkbox" type="checkbox">
+            <label class="items__label-task">Pay Bills</label>
+            <input class="items__input-task" type="text">
+            <button class="button items__button_edit">Edit</button>
+            <button class="button items__button_delete">
+              <img src="./remove.svg" class="button__delete-img" alt="delete">
+            </button>
           </li>
-          <li class=" main__task edit-mode">
-            <input class="main__checkbox" type="checkbox">
-            <label class="main__label-task">Go Shopping</label>
-            <input class="main__input-task" type="text" value="Go Shopping">
-            <button class="edit main__button">Save</button>
-            <button class="delete main__button"><img src="./remove.svg" class = "delete__img" alt = "delete"></button>
+          <li class="items__task edit-mode">
+            <input class="items__checkbox" type="checkbox">
+            <label class="items__label-task">Go Shopping</label>
+            <input class="items__input-task" type="text" value="Go Shopping">
+            <button class="button items__button_edit">Save</button>
+            <button class="button items__button_delete">
+              <img src="./remove.svg" class="button__delete-img" alt="delete">
+            </button>
           </li>
         </ul>
-      </section>
-      <section id="comleted-element">
-        <h3 class="main__heading">Completed</h3>
-        <ul class = "main__task-list completed" id="completed-tasks">
-          <li class="main__task">
-            <input class="main__checkbox" type="checkbox" checked>
-            <label class="main__label-task">See the Doctor</label>
-            <input class="main__input-task" type="text">
-            <button class="edit main__button">Edit</button>
-            <button class="delete main__button"><img src="./remove.svg" class = "delete__img" alt = "delete"></button>
+        <h3 class="items__heading">Completed</h3>
+        <ul class="items__task-list completed" id="completed-tasks">
+          <li class="items__task">
+            <input class="items__checkbox" type="checkbox" checked>
+            <label class="items__label-task">See the Doctor</label>
+            <input class="items__input-task" type="text">
+            <button class="button items__button_edit">Edit</button>
+            <button class="button items__button_delete">
+              <img src="./remove.svg" class="button__delete-img" alt="delete">
+            </button>
           </li>
         </ul>
       </section>
