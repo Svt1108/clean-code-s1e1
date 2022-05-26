@@ -48,14 +48,14 @@
   list-style: none;
 }
 
-.button,
+.main__button,
 .main__input-task,
 .main__input-new-task,
 .main__checkbox {
   outline: none;
 }
 
-.button {
+.main__button {
   background: none;
   border: 0px;
   color: #888;
@@ -65,7 +65,7 @@
   cursor: pointer;
 }
 
-.button:hover {
+.main__button:hover {
   color: #3a3A3a;
 }
 
