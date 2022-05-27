@@ -120,10 +120,6 @@
   align-items: center;
 }
 
-.items__task > * {
-  vertical-align: middle;
-}
-
 .items__checkbox {
   margin: 0 10px;
 }
