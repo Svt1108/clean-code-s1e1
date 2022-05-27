@@ -71,7 +71,7 @@
 
 /* Heading */
 .items__heading,
-.add-item__heading-new-task {
+.add-item__heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +101,7 @@
 }
 
 /* New Task */
-.add-item__heading-new-task {
+.add-item__heading {
   display: block;
   margin: 0 0 20px;
 }
