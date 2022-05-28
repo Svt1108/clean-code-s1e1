@@ -28,13 +28,13 @@
 
 .items__label-task,
 .items__input-task,
-.add-item__input-new-task {
+.add-item__input-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.add-item__new-task-wrapper {
+.add-item__wrapper {
   display: flex;
 }
 
@@ -50,7 +50,7 @@
 
 .button,
 .items__input-task,
-.add-item__input-new-task,
+.add-item__input-task,
 .items__checkbox {
   outline: none;
 }
@@ -82,7 +82,7 @@
 }
 
 .items__input-task,
-.add-item__input-new-task {
+.add-item__input-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +96,7 @@
 }
 
 .items__input-task:focus,
-.add-item__input-new-task:focus {
+.add-item__input-task:focus {
   color: #333;
 }
 
@@ -106,7 +106,7 @@
   margin: 0 0 20px;
 }
 
-.add-item__input-new-task {
+.add-item__input-task {
   width: 318px;
 }
 
@@ -135,13 +135,13 @@
   width: 226px;
 }
 
-.button__delete-img {
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__delete-img:hover {
+.button__img:hover {
   transform: rotateZ(0);
 }
 
