@@ -21,36 +21,36 @@
 .matrix { text-align: center;
 }
 }
-.main-page {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.main-page__label-task,
-.main-page__input-task,
-.main-page__input-new-task {
+.main__label-task,
+.main__input-task,
+.main__input-new-task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
-.main-page__new-task-wrapper {
+.main__new-task-wrapper {
     display: flex;
 }
 
-.main-page__task-list {
+.main__task-list {
     margin:0;
     padding: 0px;
 }
 
-.main-page__task,
-.main-page__heading {
+.main__task,
+.main__heading {
     list-style:none;
 }
 
 .button,
-.main-page__input-task,
-.main-page__input-new-task,
-.main-page__checkbox{
+.main__input-task,
+.main__input-new-task,
+.main__checkbox{
     outline:none;
 }
 
@@ -68,8 +68,8 @@
     color: #3a3A3a;
 }
 /* Heading */
-.main-page__heading,
-.main-page__heading-new-task {
+.main__heading,
+.main__heading-new-task {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -78,8 +78,8 @@
     margin: 0;
     text-transform: uppercase;
 }
-.main-page__input-task,
-.main-page__input-new-task {
+.main__input-task,
+.main__input-new-task {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -91,22 +91,22 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
-.main-page__input-task:focus,
-.main-page__input-new-task:focus {
+.main__input-task:focus,
+.main__input-new-task:focus {
     color: #333;
 }
 
 /* New Task */
-.main-page__heading-new-task {
+.main__heading-new-task {
     display: block;
     margin: 0 0 20px;
 }
-.main-page__input-new-task {
+.main__input-new-task {
     width: 318px;
 }
 
 /* Task list */
-.main-page__task {
+.main__task {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -115,20 +115,20 @@
     justify-content: space-between;
     align-items: center;
 }
-.main-page__task > * {
+.main__task > * {
     vertical-align: middle;
 }
 
-.main-page__checkbox {
+.main__checkbox {
     margin: 0 10px;
 }
-.main-page__label-task {
+.main__label-task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.main-page__input-task {
+.main__input-task {
     width: 226px
 }
 .delete__img {
@@ -147,7 +147,7 @@
 }
 
 /* Edit Task */
-.main-page__input-task {
+.main__input-task {
     display:none
 }
 
