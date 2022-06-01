@@ -156,17 +156,14 @@
 }
 
 /* Edit Task */
-.main__input-task {
+.main__input-task,
+.label-edit {
   display: none;
 }
 
 .input-edit {
   display: inline-block;
   width: 224px;
-}
-
-.label-edit {
-  display: none;
 }
 
 @media (max-width:768px) {
